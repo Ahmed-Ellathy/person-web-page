@@ -1,0 +1,30 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
+}
+body,
+[type="submit"] {
+  font-size: 1.6rem;
+  font-family: var(--font-family-raleway);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: var(--container-width);
+  display: grid;
+  row-gap: 11rem;
+  max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
+  padding-inline: var(--gutter);
+}
+.media--loop {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.08;
+  z-index: -1;
+}

@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

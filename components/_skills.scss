@@ -1,0 +1,35 @@
+.skills {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: start;
+}
+
+.h2-heading {
+  font-size: var(--font-size-65);
+  font-weight: var(--font-weight-bold);
+  grid-column: 1 / -1;
+  margin-bottom: 8rem;
+}
+.h3-heading {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 2.5rem;
+}
+.skills__sction {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+.skills__h2 {
+  font-size: var(--font-size-38);
+  margin-bottom: 1rem;
+  font-weight: var(--font-weight-semi-bold);
+}
+.skills__span {
+  display: inline-block;
+  font-size: var(--font-size-20);
+}
+.slills__li {
+  margin-bottom: 5rem;
+}
